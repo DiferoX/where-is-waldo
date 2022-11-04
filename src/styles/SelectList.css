@@ -1,0 +1,12 @@
+.selectList
+{
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 10px #000;
+  cursor: pointer;
+}
+
+.selectListImg
+{
+  width: 100%;
+}

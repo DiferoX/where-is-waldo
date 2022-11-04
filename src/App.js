@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import SelectList from './components/SelectList';
+import { v4 as uuidv4 } from 'uuid';
 
-function App() {
+const object =
+[
+  {id: uuidv4(), img: '1'},
+  {id: uuidv4(), img: '2'},
+  {id: uuidv4(), img: '3'},
+  {id: uuidv4(), img: '4'},
+  {id: uuidv4(), img: '5'},
+  {id: uuidv4(), img: '6'},
+]
+
+function App(props) 
+{
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Where's Waldo?</h1>
+      <div className='SelectListContent'>
+        {
+          object.map(item => 
+            <SelectList 
+              key={item.id}
+              item={item}
+              displayItem={props.displayItem}
+            />
+          )
+        }
+      </div>
     </div>
   );
 }

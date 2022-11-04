@@ -1,0 +1,30 @@
+.sidebarContent
+{
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* width: 100%; */
+  background-color: rgba(255, 150, 0);
+  box-shadow: inset 5px 5px 10px rgba(255, 0, 0, 0.4),
+              inset -5px -5px 10px rgba(255, 0, 0, 0.2);
+  padding: 4rem 0;
+}
+
+.sidebarContent div
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebarContentImg
+{
+  height: 12vh;
+  border-bottom: 2px solid red;
+  /* box-shadow: 0px 5px 10px red; */
+  transform: rotateY(180deg);
+  cursor: pointer;
+}

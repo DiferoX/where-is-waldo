@@ -1,0 +1,43 @@
+.gameboardContent
+{
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+.mainContentImg
+{
+  position: relative;
+  display: flex;
+  justify-content: right;
+  padding: 1rem;
+  overflow: hidden;
+  cursor: none;
+}
+
+.divsGameboardContent
+{
+  /* border: 2px solid red; */
+}
+
+.gameboardContentImg
+{
+  height: 100%;
+  padding: 1rem;
+  background-color: rgba(17, 17, 17, 0.5);
+}
+
+.gameboardContentImg:hover ~.cursor
+{
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  border: 3px solid rgb(255, 0, 0);
+  background-color: rgba(17, 17, 17, 0.2);
+  border-radius: 50%;
+  box-sizing: border-box;
+  transition: 0.0001s;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
