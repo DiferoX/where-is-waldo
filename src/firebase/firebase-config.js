@@ -27,13 +27,13 @@ export function downloadFile (file)
   })
 }
 
-export function downloadBigFile (file)
-{
-  const storageRef = ref(storage, `map/where-is-waldo 00${file}.jpg`)
-  getDownloadURL(storageRef)
-  .then((url) => 
-  {
-    const img = document.getElementsByClassName('gameboardContentImg');
-    img[0].setAttribute('src', url)
-  })
-}
+// export function downloadBigFile (file)
+// {
+//   const storageRef = ref(storage, `map/where-is-waldo 00${file}.jpg`)
+//   getDownloadURL(storageRef)
+//   .then((url) => 
+//   {
+//     const img = document.getElementsByClassName('gameboardContentImg');
+//     img[0].setAttribute('src', url)
+//   })
+// }
