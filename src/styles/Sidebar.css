@@ -4,7 +4,7 @@
   grid-template-columns: repeat(5, 1fr);
   justify-content: center;
   align-content: center;
-  height: 20vh;
+  height: 15vh;
   width: 50%;
   background-color: rgba(255, 150, 0);
   box-shadow: 10px 10px 20px #111,
@@ -30,7 +30,7 @@
 
 .sidebarContentImg
 {
-  height: 12vh;
+  height: 10vh;
   /* border-bottom: 2px solid red; */
   /* transform: rotateY(180deg); */
   transition: 0.5s;

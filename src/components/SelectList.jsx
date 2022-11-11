@@ -16,4 +16,3 @@ function SelectList(props)
 }
 
 export default SelectList;
-// onClick={() => props.displayItem(props.item)}
