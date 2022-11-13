@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.b5e65879.css",
+    "main.js": "/shopping-cart/static/js/main.99b46588.js",
+    "static/media/Waldo-image.png": "/shopping-cart/static/media/Waldo-image.29cd1623b812d5d8bed0.png",
+    "static/media/wizard.png": "/shopping-cart/static/media/wizard.e96e65d5583e367e88c8.png",
+    "static/media/waldo.png": "/shopping-cart/static/media/waldo.da8c1b47afb30e2ced1e.png",
+    "static/media/odlaw.png": "/shopping-cart/static/media/odlaw.4e2d8ed31bc248ad1281.png",
+    "static/media/wenda.png": "/shopping-cart/static/media/wenda.c0f4c483f0b5898af51c.png",
+    "index.html": "/shopping-cart/index.html",
+    "main.b5e65879.css.map": "/shopping-cart/static/css/main.b5e65879.css.map",
+    "main.99b46588.js.map": "/shopping-cart/static/js/main.99b46588.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5e65879.css",
+    "static/js/main.99b46588.js"
+  ]
+}
